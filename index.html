@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Maker</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>PC Builder</h1>
+            <p>Personnalise ton PC et visualise-le en direct !</p>
+        </header>
+
+        <div class="builder">
+            <div class="components">
+                <h2>Choisis tes composants :</h2>
+                <label for="cpu">Processeur :</label>
+                <select id="cpu">
+                    <option value="150">Intel Core i3-12100 - 150€</option>
+                    <option value="180">Intel Core i3-12100F - 180€</option>
+                    <option value="200">Intel Core i3-13100 - 200€</option>
+                    <option value="200">Intel Core i3-10100 - 200€</option>
+                    <option value="220">Intel Core i3-13100F - 220€</option>
+                    <option value="250">Intel Core i5-12400 - 250€</option>
+                    <option value="250">Intel Core i5-10600K - 250€</option>
+                    <option value="280">Intel Core i5-12400F - 280€</option>
+                    <option value="300">Intel Core i5-12600K - 300€</option>
+                    <option value="300">Intel Core i7-10700K - 300€</option>
+                    <option value="300">Intel Core i5-11600K - 300€</option>
+                    <option value="320">Intel Core i5-12600KF - 320€</option>
+                    <option value="350">Intel Core i5-13600K - 350€</option>
+                    <option value="350">Intel Core i7-11700K - 350€</option>
+                    <option value="370">Intel Core i5-13600KF - 370€</option>
+                    <option value="400">Intel Core i7-12700K - 400€</option>
+                    <option value="400">Intel Core i9-10900K - 400€</option>
+                    <option value="420">Intel Core i7-12700KF - 420€</option>
+                    <option value="450">Intel Core i7-13700K - 450€</option>
+                    <option value="450">Intel Core i9-11900K - 450€</option>
+                    <option value="470">Intel Core i7-13700KF - 470€</option>
+                    <option value="550">Intel Core i9-12900K - 550€</option>
+                    <option value="570">Intel Core i9-12900KF - 570€</option>
+                    <option value="650">Intel Core i9-13900K - 650€</option>
+                    <option value="670">Intel Core i9-13900KF - 670€</option>
+                    <option value="700">Intel Core i9-13900KS - 700€</option>
+</select></select>                </select>
+                <label for="gpu">Carte Graphique :</label>
+                <select id="gpu">
+                    <option value="300">NVIDIA GTX 1660 - 300€</option>
+                    <option value="350">NVIDIA GTX 1660 Ti - 350€</option>
+                    <option value="400">NVIDIA RTX 2060 - 400€</option>
+                    <option value="450">NVIDIA RTX 2060 SUPER - 450€</option>
+                    <option value="500">NVIDIA RTX 2070 - 500€</option>
+                    <option value="550">NVIDIA RTX 2070 SUPER - 550€</option>
+                    <option value="700">NVIDIA RTX 2080 - 700€</option>
+                    <option value="800">NVIDIA RTX 2080 SUPER - 800€</option>
+                    <option value="1000">NVIDIA RTX 2080 Ti - 1000€</option>
+                    <option value="400">NVIDIA RTX 3060 - 400€</option>
+                    <option value="500">NVIDIA RTX 3060 Ti - 500€</option>
+                    <option value="550">NVIDIA RTX 3070 - 550€</option>
+                    <option value="650">NVIDIA RTX 3070 Ti - 650€</option>
+                    <option value="800">NVIDIA RTX 3080 - 800€</option>
+                    <option value="1000">NVIDIA RTX 3080 Ti - 1000€</option>
+                    <option value="1200">NVIDIA RTX 3090 - 1200€</option>
+                    <option value="1400">NVIDIA RTX 3090 Ti - 1400€</option>
+                    <option value="350">NVIDIA RTX 4060 - 350€</option>
+                    <option value="450">NVIDIA RTX 4060 Ti - 450€</option>
+                    <option value="550">NVIDIA RTX 4070 - 550€</option>
+                    <option value="750">NVIDIA RTX 4070 Ti - 750€</option>
+                    <option value="1300">NVIDIA RTX 4080 - 1300€</option>
+                    <option value="1600">NVIDIA RTX 4080 Ti - 1600€</option>
+                    <option value="2000">NVIDIA RTX 4090 - 2000€</option>
+                    <option value="2500">NVIDIA RTX 4090 Ti - 2500€</option>
+                    <option value="25555,10">NVIDIA XTX 6090 Ti - 25555,10€</option>
+
+                </select>
+
+                <label for="ram">Mémoire RAM :</label>
+                <select id="ram">
+                    <option value="50">8GB - 50€</option>
+                    <option value="100">16GB - 100€</option>
+                    <option value="200">32GB - 200€</option>
+                    <option value="400">64GB - 400€</option>
+                    <option value="800">128GB - 800€</option>
+                    <option value="1600">256GB - 1600€</option>
+                    <option value="3200">512GB - 3200€</option>
+                    <option value="6400">1024GB - 6400€</option>
+                    <option value="12800">2048GB - 12800€</option>
+                    <option value="25600">4096GB - 25600€</option>
+                    <option value="51200">8192GB - 51200€</option>
+                    <option value="102400">16384GB - 102400€</option>
+                    <option value="204800">32768GB - 204800€</option>
+                    <option value="409600">65536GB - 409600€</option>
+                    <option value="819200">131072GB - 819200€</option>
+                    <option value="1638400">262144GB - 1638400€</option>
+                </select>
+
+                <label for="storage">Stockage :</label>
+                <select id="storage">
+                    <option value="25">SSD 128GB - 25€</option>
+                    <option value="50">SSD 256GB - 50€</option>
+                    <option value="100">SSD 512GB - 100€</option>
+                    <option value="200">SSD 1TB - 200€</option>
+                    <option value="400">SSD 2TB - 400€</option>
+                    <option value="800">SSD 4TB - 800€</option>
+                    <option value="1600">SSD 8TB - 1600€</option>
+                    <option value="3200">SSD 16TB - 3200€</option>
+                    <option value="6400">SSD 32TB - 6400€</option>
+                    <option value="12800">SSD 64TB - 12800€</option>
+                    <option value="25600">SSD 128TB - 25600€</option>
+                    <option value="51200">SSD 256TB - 51200€</option>
+                    <option value="102400">SSD 512TB - 102400€</option>
+                </select>
+                <h3>Total : <span id="total">0</span>€</h3>
+                <button id="buy-btn">Acheter</button>
+            </div>
+
+            <div class="preview">
+                <h2>Visualisation du PC</h2>
+                <div class="pc-case">
+                    <div class="cpu-preview">CPU</div>
+                    <div class="gpu-preview">GPU</div>
+                    <div class="ram-preview">RAM</div>
+                    <div class="storage-preview">Stockage</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
